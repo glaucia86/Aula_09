@@ -62,7 +62,7 @@ namespace Site.Pages
             var msg = new MailMessage("seuemail@gmail.com", p.Email)
             {
                 Subject = "Bem vindo ao Sistema",
-                Body    = "Prezado(a) " + p.Nome + " você foi cadastrado com sucesso. "
+                Body      = "Prezado(a) " + p.Nome + " você foi cadastrado com sucesso. "
             };
 
             //Configurar o protocolo SMTP:
